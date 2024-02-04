@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import { Metadata } from "next";
 import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
-import { API_URL } from "../../../(home)/page";
 
 interface IParams {
   params: { id: string };
